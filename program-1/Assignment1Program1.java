@@ -48,10 +48,7 @@ System.out.println(completedword);
     int min = 32;
     float max = 16384;
 
-    int RandomNumber = min + random.nextInt(max - min + 1);
-    System.out.println("Random number between " + min + " and " + max + " ; " + RandomNumber);
-
-
-
+    int randomNumber = min + random.nextInt(max - min + 1);
+    System.out.println("Random number between " + min + " and " + max + " ; " + randomNumber);
   }
 }
